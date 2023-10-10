@@ -10,16 +10,16 @@ import arrows from "../../../public/resources/Arrows.svg";
 const SortingWorkflow = () => {
   return (
     <div className="pt-20  flex flex-col gap-20 mt-4 my-4 md:my-20 mx-4 md:mx-64 md:mt-40 ">
-      <div className=" flex justify-center font-semibold text-3xl md:text-5xl gap-2">
+      <div className=" flex justify-center font-semibold text-3xl md:text-5xl gap-2 relative">
         <span>How </span>
         <span className="text-primary"> CV-Sorting </span>
         <span> Works</span>
       </div>
       <div>
         <div>
-          <div className="flex flex-col justify-center gap-16 md:flex-row">
-            <div className="flex flex-col items-center gap-8 ">
-              <div className="bg-ash rounded-full flex justify-center w-18 h-18">
+          <div className="grid lg:grid-cols-7">
+            <div className="flex flex-col items-center gap-8 hover:bg-gray-500">
+              <div className="bg-ash rounded-full flex justify-center w-24 h-24 hover:bg-gray-400">
                 <Image
                   className="flex items-center rounded-full"
                   src={user_plus}
@@ -38,11 +38,13 @@ const SortingWorkflow = () => {
                 </div>
               </div>
             </div>
-            <div>
-              <Image className="" src={arrows} alt={""} />
+
+            <div className="flex self-start scale-[1.5]">
+              <Image className="" src={arrows} alt="" />
             </div>
-            <div className="flex flex-col items-center gap-8">
-              <div className="bg-ash rounded-full flex justify-center w-18 h-18">
+
+            <div className="flex flex-col items-center gap-8 relative hover:bg-gray-500">
+              <div className="bg-ash rounded-full flex justify-center w-24 h-24">
                 <Image
                   className="flex items-center rounded-full"
                   src={cloud_arrow}
@@ -62,8 +64,11 @@ const SortingWorkflow = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-8">
-              <div className="bg-ash hover:bg-sky-500 rounded-full flex justify-center w-18 h-18">
+            <div className="flex self-start scale-[1.5]">
+              <Image className="rotate-[180deg] mt-10" src={arrows} alt="" />
+            </div>
+            <div className="flex flex-col items-center gap-8 relative hover:bg-gray-500">
+              <div className="bg-ash hover:bg-sky-500 rounded-full flex justify-center w-24 h-24">
                 <Image
                   className="flex items-center rounded-full"
                   src={rank}
@@ -83,8 +88,11 @@ const SortingWorkflow = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-8">
-              <div className="bg-ash hover:bg-sky-500 rounded-full flex justify-center w-18 h-18">
+            <div className="flex self-start scale-[1.5]">
+              <Image className="" src={arrows} alt="" />
+            </div>
+            <div className="flex flex-col items-center gap-8 hover:bg-gray-500">
+              <div className="bg-ash hover:bg-sky-500 rounded-full flex justify-center w-24 h-24">
                 <Image
                   className="flex items-center rounded-full"
                   src={user_three}
