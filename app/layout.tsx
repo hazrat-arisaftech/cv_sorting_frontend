@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Jost } from "next/font/google";
-import Nav from "./components/nav/Nav";
+import Nav from "./components/nav/nav";
 import Home from "./page";
 import SortingWorkflow from "./components/cv-sorting-workflow/sortingWorkflow";
 

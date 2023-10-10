@@ -121,11 +121,12 @@ const Nav = () => {
           <div className="hidden md:flex items-center space-x-3">
             <Link
               href=""
-              className="flex gap-2 py-2 px-2 font-medium text-blue-500 rounded hover:bg-blue-500 hover:text-white transition duration-300"
+              className="group flex gap-2 py-2 px-2 font-medium text-primary rounded bg-lightgreen hover:bg-primary hover:text-white transition duration-100"
             >
               <div className="visible">Upload CV</div>
 
               <svg
+                className="group-hover:text-white text-primary"
                 fill="none"
                 stroke="currentColor"
                 color="rgba(0, 116, 217, 1)"
@@ -144,7 +145,7 @@ const Nav = () => {
             </Link>
             <Link
               href=""
-              className="block login-btn py-2 px-4 font-medium text-white rounded hover:bg-blue-500 transition duration-300"
+              className="block bg-primary py-2 px-4 font-medium text-white rounded hover:bg-secondary transition duration-300"
             >
               Login / Register
             </Link>
@@ -178,7 +179,7 @@ const Nav = () => {
           <li className="active">
             <Link
               href="index.html"
-              className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold"
+              className="block text-sm px-2 py-4 text-white bg-primary font-semibold"
             >
               Home
             </Link>
@@ -186,7 +187,7 @@ const Nav = () => {
           <li>
             <Link
               href="#services"
-              className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+              className="block text-sm px-2 py-4 hover:bg-primary transition duration-300"
             >
               FAQ's
             </Link>
@@ -195,7 +196,7 @@ const Nav = () => {
           <li>
             <Link
               href="#contact"
-              className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+              className="block text-sm px-2 py-4 hover:bg-primary transition duration-300"
             >
               Contact Us
             </Link>

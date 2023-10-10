@@ -11,6 +11,15 @@ const config: Config = {
       maxWidth: {
         "8xl": "90rem",
       },
+      backgroundColor: {
+        primary: "rgba(0, 116, 217, 1)",
+        secondary: "rgba(0, 96, 197, 1)",
+        lightgreen: "rgba(0, 116, 217, 0.05)",
+      },
+      textColor: {
+        primary: "rgba(0, 116, 217, 1)",
+        secondary: "rgba(0, 96, 197, 1)",
+      },
       fontFamily: {
         jost: ["Jost"],
       },

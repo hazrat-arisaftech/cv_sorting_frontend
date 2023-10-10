@@ -34,14 +34,6 @@
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
-  .login-btn {
-    background-color: rgba(0, 116, 217, 1);
-    color: #ffffff;
-    @apply hover:bg-blue-700;
-  }
-  .text-primary {
-    color: rgba(0, 116, 217, 1);
-  }
   .text-sub {
     color: rgba(52, 52, 52, 1);
   }
@@ -56,5 +48,8 @@
   }
   .bg-blue {
     background-color: rgba(0, 96, 197, 1);
+  }
+  .bg-grn {
+    background-color: rgba(0, 177, 202, 0.05);
   }
 }
