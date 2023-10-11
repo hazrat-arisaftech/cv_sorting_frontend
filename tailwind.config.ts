@@ -19,6 +19,8 @@ const config: Config = {
       textColor: {
         primary: "rgba(0, 116, 217, 1)",
         secondary: "rgba(0, 96, 197, 1)",
+        black: "rgba(24, 25, 28, 1)",
+        textSub: "rgba(52, 52, 52, 1)",
       },
       fontFamily: {
         jost: ["Jost"],
@@ -27,6 +29,9 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      zIndex: {
+        "999": "999",
       },
     },
   },

@@ -78,7 +78,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0">
+    <nav className="bg-white shadow-lg sticky top-0 z-999">
       <div className="max-w-8xl xl:mx-auto px-4 lg:px-10 xl:px-32 2xl:px-8">
         <div className="flex justify-between">
           <div className="flex space-x-7">

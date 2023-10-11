@@ -21,9 +21,7 @@ export default function RootLayout({
     <html lang="en ">
       <body className="no-scrollbar">
         <Nav />
-
         {children}
-        <SortingWorkflow />
       </body>
     </html>
   );
