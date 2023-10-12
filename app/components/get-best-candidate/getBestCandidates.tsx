@@ -23,13 +23,13 @@ const GetBestCandidates = () => {
           applies technology and AI.We help companies in relying on data-driven
           decisions to make wise judgments.
         </div>
-        <div>
-          <div className="flex  items-center gap-2">
+        <div className="flex flex-col gap-4">
+          <div className="flex gap-2">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
                 fill="#0074d9"
                 stroke="#ffffff"
@@ -48,12 +48,12 @@ const GetBestCandidates = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex gap-2">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
                 fill="#0074d9"
                 stroke="#ffffff"
@@ -71,12 +71,12 @@ const GetBestCandidates = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex gap-2">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
                 fill="#0074d9"
                 stroke="#ffffff"
@@ -99,8 +99,8 @@ const GetBestCandidates = () => {
             <div className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
                 fill="#0074d9"
                 stroke="#ffffff"
