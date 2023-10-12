@@ -7,7 +7,7 @@ import tal_icon from "../../../public/resources/tal_icon.svg";
 import Image from "next/image";
 const HeroSection = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row justify-between items-center px-auto lg:px-8 xl:px-32 2xl:pl-64 2xl:pr-48  overflow-y-auto ">
+    <div className="w-full flex gap-4 flex-col md:flex-row justify-between items-center px-auto lg:px-8 xl:px-32 2xl:pl-64 2xl:pr-48  overflow-y-auto ">
       <div className="flex flex-col gap-5 w-full px-4 pt-12 md:w-2/5 md:mt-4 lg:mt-16 xl:mt-32 2xl:mt-48 mt-2">
         <div className=" text-3xl md:text-4xl lg:text-6xl font-semibold text-sub leading-snug">
           Elevate The Search For Your
@@ -28,9 +28,9 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="w-full px-4  md:w-3/5 md:mt-20 ">
-        <div className="flex flex-col top-8 md:top-16 md:px-8">
+        <div className="flex flex-col top-8 md:top-16 md:px-8 gap-4">
           <div className="flex  md:justify-center ">
-            <div className="flex gap-4 md:gap-0 ">
+            <div className="flex gap-4 md:gap-0 p-2 shadow-lg">
               <Image src={candi_icon} alt={""} />
               <div>
                 <div className="font-medium ">Candidates</div>
@@ -40,8 +40,8 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-between md:flex-row">
-            <div className="flex gap-4 md:gap-0">
+          <div className="flex flex-col justify-between md:flex-row gap-4">
+            <div className="flex gap-4 md:gap-0 p-2 shadow-lg">
               <Image src={up_icon} alt={""} />
               <div>
                 <div className="font-medium ">Upload your CV</div>
@@ -49,7 +49,7 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="flex gap-4 md:gap-0">
+            <div className="flex gap-4 md:gap-0 p-2 shadow-lg">
               <Image src={tal_icon} alt={""} />
               <div>
                 <div className="font-medium ">Find the best talent</div>

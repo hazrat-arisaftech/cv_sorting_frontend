@@ -7,67 +7,6 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../../../public/resources/CV-Sorting_logo.svg";
 import { Jost, Poppins } from "next/font/google";
-// const Nav = () => {
-//   return (
-//     <div className=" w-full bg-white flex justify-between  items-center px-4 xl:96 lg:px-64 md:px-32 sm:px-16 py-3 shadow-lg">
-//       <div className="">
-//         {/* <div className="text-4xl font-semibold">CV-sorting </div>{" "} */}
-//         <Link href="" className="object-fill w-[139] h-[30] ">
-//           <Image
-//             src={logo}
-//             alt={""}
-//             objectFit="fixed"
-//             width={139}
-//             height={30}
-//           />
-//         </Link>
-//       </div>
-
-//       <div className="flex justify-between  gap-10 collapse sm:collapse lg:visible ">
-//         <Link href="" className=" text-lg font-normal ">
-//           Home
-//         </Link>
-//         <Link href="" className="text-lg font-normal">
-//           FAQ's
-//         </Link>
-//         <Link href="" className="text-lg font-normal">
-//           Contact Us
-//         </Link>
-//       </div>
-//       <div className="flex justify-between items-center gap-10 grid-rows-2 collapse  lg:visible xl:visible">
-//         <div className="flex justify-center items-center gap-2  px-4 py-2 rounded-md">
-//           <div
-//             className="text-lg font-font-medium"
-//             style={{ color: "rgba(0, 116, 217, 1)" }}
-//           >
-//             Upload CVs
-//           </div>
-
-//           <svg
-//             fill="none"
-//             stroke="currentColor"
-//             color="rgba(0, 116, 217, 1)"
-//             width={18}
-//             stroke-width="1.5"
-//             viewBox="0 0 24 24"
-//             xmlns="http://www.w3.org/2000/svg"
-//             aria-hidden="true"
-//           >
-//             <path
-//               stroke-linecap="round"
-//               stroke-linejoin="round"
-//               d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"
-//             ></path>
-//           </svg>
-//         </div>
-//         <div className="login-btn px-4 py-2 rounded-md">Login / Register</div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Nav;
-
 import { useState } from "react";
 
 const Nav = () => {
@@ -157,7 +96,7 @@ const Nav = () => {
             >
               <svg
                 className={`w-6 h-6 text-gray-500 ${
-                  isMobileMenuOpen ? "hover:text-green-500" : ""
+                  isMobileMenuOpen ? "hover:text-primary" : ""
                 }`}
                 fill="none"
                 strokeLinecap="round"
@@ -204,7 +143,7 @@ const Nav = () => {
           <li>
             <Link
               href=""
-              className="block login-btn py-2 px-4 font-medium mr-80 text-white rounded hover:bg-blue-500 transition duration-300"
+              className="block bg-primary py-2 px-4 font-medium mr-80 text-white rounded hover:bg-blue-500 transition duration-300"
             >
               Login / Register
             </Link>
