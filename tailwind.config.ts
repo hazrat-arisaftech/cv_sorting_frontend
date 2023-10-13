@@ -43,6 +43,9 @@ const config: Config = {
       zIndex: {
         "999": "999",
       },
+      fontSize: {
+        "40": "40px",
+      },
     },
   },
   plugins: [],

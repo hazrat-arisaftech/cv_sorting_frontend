@@ -7,7 +7,7 @@ import Link from "next/link";
 const SortNow = () => {
   return (
     <div className="mx-4 md:mx-64 md:px-4 my-24   ">
-      <div className="flex flex-col md:flex-row justify-between  gap-12 items-center  bg-white md:px-10    border-2 border-solid border-slate-300 shadow-xl rounded ">
+      <div className="flex flex-col md:flex-row justify-between  gap-12 items-center  bg-white md:px-10    border-1 border-solid border-slate-300 shadow-xl rounded ">
         <div className="p-0 m-0">
           <Image className="self-center w-full" src={illustration1} alt={""} />
         </div>

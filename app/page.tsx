@@ -4,6 +4,8 @@ import HeroSection from "./components/hero-section/heroSection";
 import SortNow from "./components/cv-sorting-workflow/sortNow";
 import SortingWorkflow from "./components/cv-sorting-workflow/sortingWorkflow";
 import GetBestCandidates from "./components/get-best-candidate/getBestCandidates";
+import AskedQuestions from "./components/asked-questions/askedQuestions";
+import ThoughtAboutUs from "./components/thought-about-us/thoughtAboutUs";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
       <SortingWorkflow />
       <SortNow />
       <GetBestCandidates />
+      <ThoughtAboutUs />
+      <AskedQuestions />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import tal_icon from "../../../public/resources/tal_icon.svg";
 import Image from "next/image";
 const HeroSection = () => {
   return (
-    <div className="w-full flex gap-4 flex-col md:flex-row justify-between items-center px-auto lg:px-8 xl:px-32 2xl:pl-64 2xl:pr-48  overflow-y-auto ">
+    <div className=" w-full  flex gap-4 flex-col md:flex-row justify-between items-center px-auto lg:px-8 xl:px-32 2xl:pl-64 2xl:pr-48 md:pb-24 overflow-y-auto ">
       <div className="flex flex-col gap-5 w-full px-4 pt-12 md:w-2/5 md:mt-4 lg:mt-16 xl:mt-32 2xl:mt-48 mt-2">
         <div className=" text-3xl md:text-4xl lg:text-6xl font-semibold text-sub leading-snug">
           Elevate The Search For Your

@@ -4,8 +4,8 @@ import Image from "next/image";
 import logo from "../../../public/resources/CV-Sorting_logo.svg";
 const Footer = () => {
   return (
-    <footer>
-      <div className="flex flex-col md:flex-row justify-between p-4 py-12 md:px-64 gap-8 md:gap-36">
+    <footer className=" ">
+      <div className=" flex flex-col md:flex-row justify-between p-4 py-12 md:px-64 gap-8 md:gap-36">
         <div className="flex flex-col gap-4 md:gap-6">
           <div>
             <Link
@@ -40,8 +40,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row-reverse justify-between  md:gap-36 md:flex-row">
-          <div className="flex flex-col pr-8 md:pr-0 gap-4 md:gap-6">
+        <div className="flex flex-row-reverse justify-between  gap-4 md:gap-36 md:flex-row">
+          <div className="flex flex-col  md:pr-0 gap-4 md:gap-6">
             <div className="text-black text-base font-medium">
               For Candidates
             </div>

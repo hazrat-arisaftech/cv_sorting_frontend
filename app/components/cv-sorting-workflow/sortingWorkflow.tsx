@@ -9,7 +9,7 @@ import arrows from "../../../public/resources/Arrows.svg";
 
 const SortingWorkflow = () => {
   return (
-    <div className="pt-20  flex flex-col gap-20 mt-4 my-4 md:my-20 mx-4 md:mx-64 md:mt-40  ">
+    <div className="pt-20  flex flex-col gap-20 mt-4 my-4 md:my-24 mx-4 md:mx-64   ">
       <div className=" flex justify-center font-semibold text-3xl md:text-5xl gap-2 relative">
         <span>How </span>
         <span className="text-primary"> CV-Sorting </span>

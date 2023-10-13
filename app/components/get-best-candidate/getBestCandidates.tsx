@@ -5,7 +5,7 @@ import illustration1 from "../../../public/resources/Illustration1.svg";
 import Image from "next/image";
 const GetBestCandidates = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row justify-between items-center  px-auto lg:px-8 xl:px-32 2xl:px-64 p-4 overflow-y-auto mt-64 mb-64">
+    <div className=" w-full flex flex-col md:flex-row justify-between items-center md:py-32 px-auto lg:px-8 xl:px-32 2xl:px-64  overflow-y-auto ">
       <div className="flex w-full">
         <Image src={illustration1} alt={""} className="w-full" />
       </div>
