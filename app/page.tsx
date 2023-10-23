@@ -7,7 +7,7 @@ import GetBestCandidates from "./components/get-best-candidate/getBestCandidates
 import AskedQuestions from "./components/asked-questions/askedQuestions";
 import ThoughtAboutUs from "./components/thought-about-us/thoughtAboutUs";
 
-const Home = () => {
+export default function Home() {
   return (
     <div>
       <HeroSection />
@@ -18,6 +18,6 @@ const Home = () => {
       <AskedQuestions />
     </div>
   );
-};
+}
 
-export default Home;
+export const dynamic = "force-dynamic";

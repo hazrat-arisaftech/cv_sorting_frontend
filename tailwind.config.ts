@@ -29,6 +29,12 @@ const config: Config = {
         black: "rgba(24, 25, 28, 1)",
         textSub: "rgba(52, 52, 52, 1)",
       },
+      colors: {
+        primary: "rgba(0, 116, 217, 1)",
+        secondary: "rgba(0, 96, 197, 1)",
+        black: "rgba(24, 25, 28, 1)",
+        textSub: "rgba(52, 52, 52, 1)",
+      },
       fontFamily: {
         jost: ["Jost"],
       },

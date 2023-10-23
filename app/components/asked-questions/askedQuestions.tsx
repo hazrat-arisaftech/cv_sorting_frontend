@@ -42,7 +42,7 @@ const AskedQuestions = () => {
   }
 
   return (
-    <div className="flex flex-col gap-12 my-24 mx-4 md:mx-64 md:px-4">
+    <div className="flex flex-col gap-12 py-32 mx-4 md:mx-64 md:px-4">
       <div className="felx justify-center items-center text-center text-40 font-semibold text-black ">
         <span>Frequently Asked</span>
         <span className="text-primary"> Questions</span>
